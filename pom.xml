@@ -97,7 +97,8 @@
     <repositories>
         <repository>
             <id>nexus.autolink-repositories</id>
-            <url>http://nexus.cltx.com:8081/nexus/content/groups/autolink-repositories/</url>
+            <!--<url>http://nexus.cltx.com:8081/nexus/content/groups/autolink-repositories/</url>-->
+            <url>http://192.168.126.128:9999/nexus/content/groups/autolink-repositories/</url>
             <releases>
                 <enabled>true</enabled>
                 <updatePolicy>always</updatePolicy>
@@ -139,12 +140,14 @@
         <!-- release库地址 -->
         <repository>
             <id>nexus.autolink-release</id>
-            <url>http://nexus.cltx.com:8081/nexus/content/repositories/autolink-release/</url>
+            <!--<url>http://nexus.cltx.com:8081/nexus/content/repositories/autolink-release/</url>-->
+            <url>http://192.168.126.128:9999/nexus/content/repositories/autolink-release/</url>
         </repository>
         <!-- snapshot库地址 -->
         <snapshotRepository>
             <id>nexus.autolink-snapshot</id>
-            <url>http://nexus.cltx.com:8081/nexus/content/repositories/autolink-snapshot/</url>
+            <!--<url>http://nexus.cltx.com:8081/nexus/content/repositories/autolink-snapshot/</url>-->
+            <url>http://192.168.126.128:9999/nexus/content/repositories/autolink-snapshot/</url>
         </snapshotRepository>
     </distributionManagement>
 </project>
