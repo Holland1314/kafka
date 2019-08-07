@@ -96,9 +96,9 @@
 
     <repositories>
         <repository>
-            <id>nexus.autolink-repositories</id>
+            <id>self-repositories</id>
             <!--<url>http://nexus.cltx.com:8081/nexus/content/groups/autolink-repositories/</url>-->
-            <url>http://192.168.126.128:9999/nexus/content/groups/autolink-repositories/</url>
+            <url>http://192.168.126.128:9999/nexus/content/groups/self-repositories/</url>
             <releases>
                 <enabled>true</enabled>
                 <updatePolicy>always</updatePolicy>
@@ -119,6 +119,7 @@
             <id>spring-milestones</id>
             <url>http://repo.spring.io/milestone</url>
         </repository>
+
         <repository>
             <id>Eclipse Paho Repo</id>
             <url>https://repo.eclipse.org/content/repositories/paho-snapshots/</url>
@@ -139,13 +140,13 @@
     <distributionManagement>
         <!-- release库地址 -->
         <repository>
-            <id>nexus.autolink-release</id>
+            <id>nexus.self-release</id>
             <!--<url>http://nexus.cltx.com:8081/nexus/content/repositories/autolink-release/</url>-->
             <url>http://192.168.126.128:9999/nexus/content/repositories/autolink-release/</url>
         </repository>
         <!-- snapshot库地址 -->
         <snapshotRepository>
-            <id>nexus.autolink-snapshot</id>
+            <id>nexus.autolink-self</id>
             <!--<url>http://nexus.cltx.com:8081/nexus/content/repositories/autolink-snapshot/</url>-->
             <url>http://192.168.126.128:9999/nexus/content/repositories/autolink-snapshot/</url>
         </snapshotRepository>
